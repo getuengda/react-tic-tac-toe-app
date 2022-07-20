@@ -1,0 +1,53 @@
+@import "https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Ubuntu:wght@500&display=swap";
+body {
+  margin: 20px;
+  font: 14px Century Gothic, Futura, sans-serif;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  float: left;
+  height: 34px;
+  text-align: center;
+  width: 34px;
+  background: #fff;
+  border: 1px solid #999;
+  margin-top: -1px;
+  margin-right: -1px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  flex-direction: row;
+  display: flex;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
